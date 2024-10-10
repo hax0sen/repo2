@@ -7,7 +7,7 @@ echo "Nexus Username: $NEXUS_USER"
 echo "Nexus Password: $NEXUS_PASS"
 
 # Echo Jenkins agent environment variables
-echo "Jenkins agent proxy: ${vn-proxy}"
+echo "Jenkins agent proxy: $vn_proxy"
 
 # You can print all the environment variables for debugging purposes
 echo "==== Jenkins Agent Environment Variables ===="
