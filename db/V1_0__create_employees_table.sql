@@ -4,6 +4,6 @@ CREATE TABLE IF NOT EXISTS employees (
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
     email VARCHAR(100) NOT NULL,
-    hire_date DATE NOT NULL,
-    job_title VARCHAR(50)
+    hire_date DATE NOT NULL
+
 );
